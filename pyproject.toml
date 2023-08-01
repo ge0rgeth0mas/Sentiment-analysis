@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sentiment-analysis"
+version = "0.1.0"
+description = ""
+authors = ["geofreeze <geofreeze7@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sentiment_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.1"
+numpy = "^1.25.2"
+pandas = "^2.0.3"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
